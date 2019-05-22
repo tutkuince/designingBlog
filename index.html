@@ -1,87 +1,123 @@
 <!doctype html>
 <html lang="tr">
-  <head>
+<head>
     <title>Welcome to Simple WebPage</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap Main and Animate Css -->
-    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">  
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  </head>
-  <body>
-    <div id="goTop" class="container">
-      <div class="row ">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+<div id="goTop" class="container">
+    <div class="row ">
 
         <!--------------------  LEFT      ---------------------->
         <div class="col-md-3 mx-auto">
-          <!-- Logo -->
-          <div class="row bg-white mb-3">
-            <div class="col-sm-7 mx-auto">
-              <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="img/logo.png" alt="Logo">
-              </a>
-            </div>
-          </div>
-
-        <!-- Menu -->
-          <div class="row bg-white mb-3">
-            <nav class="navbar navbar-expand-md" id="sidebar">
-                <button class="navbar-toggler bg-dark" data-toggle="collapse" data-targer="#navCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navCollapse">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-home pr-2"></i>Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#"><i class="fa fa-user pr-2"></i>Corporate</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">About Us</a>
-                                <a href="#" class="dropdown-item">Our Mission & Vision</a>
-                                <div href="#" class="dropdown-divider"></div>
-                                <a href="#" class="dropdown-item">Why us?</a>
-
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-list pr-2"></i>Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-list-alt pr-2"></i>Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-list-alt pr-2"></i>Career</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-list-alt pr-2"></i>Contact</a>
-                        </li>
-                    </ul>
+            <!-- Logo -->
+            <div class="row bg-white mb-3">
+                <div class="col-sm-7 mx-auto">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="img/logo.png" alt="Logo">
+                    </a>
                 </div>
-            </nav>
-          </div>
+            </div>
+
+            <!-- Menu -->
+            <div class="row bg-white mb-3">
+                <nav class="navbar navbar-expand-md" id="sidebar">
+                    <button class="navbar-toggler bg-dark" data-toggle="collapse" data-targer="#navCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navCollapse">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-home pr-2"></i>Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#"><i
+                                        class="fa fa-user pr-2"></i>Corporate</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">About Us</a>
+                                    <a href="#" class="dropdown-item">Our Mission & Vision</a>
+                                    <div href="#" class="dropdown-divider"></div>
+                                    <a href="#" class="dropdown-item">Why us?</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-list pr-2"></i>Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-list-alt pr-2"></i>Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-list-alt pr-2"></i>Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-list-alt pr-2"></i>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Popular Posts -->
+            <section id="popularPosts">
+                <div class="row bg-white">
+                    <h5 class="py-4 pl-4">Popular Posts</h5>
+                </div>
+                <div class="popularPost row bg-white pb-3">
+                    <div class="postImage pl-4">
+                        <img src="img/posts/post1.jpg" alt="Post Image">
+                    </div>
+                    <div class="popularPostText pl-4 text-muted">
+                        <p>Magna Ullamcorper</p>
+                        <p>Dolar Fermentum</p>
+                    </div>
+                </div>
+                <div class="popularPost row bg-white pb-3">
+                    <div class="postImage pl-4">
+                        <img src="img/posts/post2.jpg" alt="Post Image">
+                    </div>
+                    <div class="popularPostText pl-4 text-muted">
+                        <p>Commodo Fusce</p>
+                        <p>Dollor Adpiscing</p>
+                    </div>
+                </div>
+                <div class="popularPost row bg-white pb-3">
+                    <div class="postImage pl-4">
+                        <img src="img/posts/post3.jpg" alt="Post Image">
+                    </div>
+                    <div class="popularPostText pl-4 text-muted">
+                        <p>Quam Inceptors</p>
+                        <p>Lorem Tortor Risus</p>
+                    </div>
+                </div>
+            </section>
         </div>
 
         <!--------------------  RIGHT     ---------------------->
         <div class="col-md-8 bg-dark mx-auto">
-          <h1>Right Content</h1>
+            <h1>Right Content</h1>
         </div>
 
-       </div> <!-- Main Row Finished -->
-    </div> <!-- Container Finished -->
+    </div> <!-- Main Row Finished -->
+</div> <!-- Container Finished -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Wow JS-->
-    <script src="js/jquery.js" type="text/JavaScript"></script>
-    <script src="js/popper.min.js" type="text/JavaScript"></script>
-    <script src="js/bootstrap.js" type="text/JavaScript"></script>
-    <script src="js/wow.js"></script>
-    <script>
-          new WOW().init();
-    </script>
-  </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS, then Wow JS-->
+<script src="js/jquery.js" type="text/JavaScript"></script>
+<script src="js/popper.min.js" type="text/JavaScript"></script>
+<script src="js/bootstrap.js" type="text/JavaScript"></script>
+<script src="js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
 </html>
